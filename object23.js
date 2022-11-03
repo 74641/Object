@@ -27,6 +27,10 @@ class administrator extends user{
     }
 }
 
+
+const vrunda = new administrator("VRUNDA",1, "1","20");
+console.log(vrunda.name);
+console.log(vrunda.role);
 const jay = new administrator("Jay", 1230, "1","5");
 console.log(jay.name);
 console.log(jay.role);
